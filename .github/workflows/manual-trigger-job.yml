@@ -2,8 +2,7 @@ name: Manually trigger an Azure Machine Learning job
 
 on:
   workflow_dispatch:
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   train:
     runs-on: ubuntu-latest
